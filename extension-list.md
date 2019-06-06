@@ -1,0 +1,12 @@
+CoenraadS.bracket-pair-colorizer
+dbaeumer.vscode-eslint
+dracula-theme.theme-dracula
+esbenp.prettier-vscode
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+msjsdiag.debugger-for-chrome
+pranaygp.vscode-css-peek
+sdras.night-owl
+steoates.autoimport
+streetsidesoftware.code-spell-checker
+xyz.local-history
