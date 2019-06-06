@@ -5,6 +5,8 @@ esbenp.prettier-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 msjsdiag.debugger-for-chrome
+naumovs.theme-oceanicnext
+pnp.polacode
 pranaygp.vscode-css-peek
 sdras.night-owl
 steoates.autoimport
