@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
 
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -11,10 +11,10 @@
   "editor.formatOnSave": true,
   "editor.detectIndentation": true,
   "editor.fontSize": 13,
-  "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
-  "editor.parameterHints": false,
+  "editor.parameterHints.enabled": false,
   "editor.snippetSuggestions": "top",
   "editor.wordBasedSuggestions": false,
+  "terminal.integrated.fontSize": 13,
 
   "[javascript]": {
     "editor.suggestSelection": "recentlyUsed"
@@ -82,7 +82,7 @@
   "local-history.absolute": true,
   "local-history.path": "/Users/terryli/.vscode-history",
 
-  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false,
 
-  "workbench.colorTheme": "Visual Studio Dark"
+  "workbench.colorTheme": "Oceanic Next (dimmed bg)"
 }
