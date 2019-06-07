@@ -84,5 +84,8 @@
 
   "workbench.statusBar.visible": false,
 
+  "macros": {
+    "deleteLinesUp": ["editor.action.deleteLines", "cursorUp"]
+  },
   "workbench.colorTheme": "Oceanic Next (dimmed bg)"
 }

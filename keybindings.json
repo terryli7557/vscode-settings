@@ -53,10 +53,6 @@
     "when": "editorTextFocus && editorHasSelection"
   },
   {
-    "key": "shift+cmd+backspace",
-    "command": "workbench.action.navigateToLastEditLocation"
-  },
-  {
     "key": "cmd+k cmd+q",
     "command": "-workbench.action.navigateToLastEditLocation"
   },
@@ -73,5 +69,36 @@
   {
     "key": "cmd+e",
     "command": "workbench.action.navigateLast"
+  },
+  {
+    "key": "shift+cmd+backspace",
+    "command": "workbench.action.navigateToLastEditLocation"
+  },
+  {
+    "key": "shift+cmd+m",
+    "command": "-workbench.actions.view.problems"
+  },
+  {
+    "key": "shift+cmd+m",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "cmd+backspace",
+    "command": "-deleteAllLeft",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+backspace",
+    "command": "macros.deleteLinesUp",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
   }
 ]
