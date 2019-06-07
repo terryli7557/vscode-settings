@@ -100,5 +100,35 @@
     "key": "shift+cmd+k",
     "command": "-editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+[",
+    "command": "-editor.action.outdentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+]",
+    "command": "-editor.action.indentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+[",
+    "command": "workbench.action.editor.previousChange",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+f5",
+    "command": "-workbench.action.editor.previousChange",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+]",
+    "command": "workbench.action.editor.nextChange",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+f5",
+    "command": "-workbench.action.editor.nextChange",
+    "when": "editorTextFocus"
   }
 ]
