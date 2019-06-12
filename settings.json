@@ -95,10 +95,11 @@
     "editor.background": "#1a1a1a",
     "editor.lineHighlightBackground": "#1f1f1f",
     "editorGroup.border": "#1a1a1a",
-
     "scrollbarSlider.hoverBackground": "#1a1a1a"
   },
   "editor.overviewRulerBorder": false,
 
-  "workbench.colorTheme": "Oceanic Next (dimmed bg)"
+  "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+  "workbench.editor.showTabs": false,
+  "editor.lineNumbers": "off"
 }
