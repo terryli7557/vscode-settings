@@ -84,10 +84,6 @@
 
   "workbench.statusBar.visible": false,
 
-  "macros": {
-    "deleteLinesUp": ["editor.action.deleteLines", "cursorUp"]
-  },
-
   "workbench.colorCustomizations": {
     "scrollbarSlider.background": "#1a1a1a",
 

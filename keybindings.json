@@ -88,11 +88,6 @@
     "when": "textInputFocus && !editorReadonly"
   },
   {
-    "key": "cmd+backspace",
-    "command": "macros.deleteLinesUp",
-    "when": "textInputFocus && !editorReadonly"
-  },
-  {
     "key": "shift+cmd+k",
     "command": "-editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
@@ -143,5 +138,9 @@
   {
     "key": "ctrl+g",
     "command": "-workbench.action.gotoLine"
+  },
+  {
+    "key": "cmd+backspace",
+    "command": "editor.action.deleteLines"
   }
 ]
