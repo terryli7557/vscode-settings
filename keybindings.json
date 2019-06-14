@@ -103,18 +103,8 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "cmd+[",
-    "command": "workbench.action.editor.previousChange",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "shift+alt+f5",
     "command": "-workbench.action.editor.previousChange",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "cmd+]",
-    "command": "workbench.action.editor.nextChange",
     "when": "editorTextFocus"
   },
   {
@@ -142,5 +132,43 @@
   {
     "key": "cmd+backspace",
     "command": "editor.action.deleteLines"
+  },
+  {
+    "key": "shift+cmd+b",
+    "command": "-workbench.action.tasks.build"
+  },
+  {
+    "key": "shift+cmd+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+b",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "cmd+[",
+    "command": "workbench.action.navigateBack"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.navigateBack"
+  },
+  {
+    "key": "cmd+]",
+    "command": "workbench.action.navigateForward"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "-workbench.action.navigateForward"
   }
 ]
