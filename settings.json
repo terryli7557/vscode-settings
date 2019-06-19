@@ -87,13 +87,13 @@
   "workbench.statusBar.visible": false,
 
   "workbench.colorCustomizations": {
-    "scrollbarSlider.background": "#1a1a1a",
+    "scrollbarSlider.background": "#080200",
 
     "editor.scrollbar.verticalScrollbarSize": 0,
-    "editor.background": "#1a1a1a",
-    "editor.lineHighlightBackground": "#1f1f1f",
-    "editorGroup.border": "#1a1a1a",
-    "scrollbarSlider.hoverBackground": "#1a1a1a"
+    "editor.background": "#080200",
+    "editor.lineHighlightBackground": "#181818",
+    "editorGroup.border": "#080200",
+    "scrollbarSlider.hoverBackground": "#080200"
   },
   "editor.overviewRulerBorder": false,
 
