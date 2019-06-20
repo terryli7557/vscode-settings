@@ -10,7 +10,7 @@
   "editor.renderIndentGuides": false,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    // "source.organizeImports": true
   },
   "editor.detectIndentation": true,
   "editor.parameterHints.enabled": false,
@@ -99,5 +99,6 @@
 
   "workbench.colorTheme": "Oceanic Next (dimmed bg)",
   "workbench.editor.showTabs": false,
-  "editor.lineNumbers": "off"
+  "editor.lineNumbers": "off",
+  "git.enabled": false
 }
