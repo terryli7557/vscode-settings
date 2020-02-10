@@ -86,4 +86,7 @@
     }
   ],
   "editor.glyphMargin": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "editor.emptySelectionClipboard": false
 }
