@@ -8,7 +8,6 @@
   "editor.renderIndentGuides": false,
   "editor.detectIndentation": true,
   "editor.parameterHints.enabled": false,
-  "editor.snippetSuggestions": "top",
   "editor.wordBasedSuggestions": false,
   "terminal.integrated.fontSize": 13,
   "editor.tabSize": 2,
@@ -25,12 +24,8 @@
     "**/.build": true,
     "**/.gh-pages": true
   },
-  "editor.formatOnSave": false,
   "[javascript]": {
     "editor.suggestSelection": "recentlyUsed",
-    "editor.formatOnSave": false
-  },
-  "[javascriptreact]": {
     "editor.formatOnSave": false
   },
   "editor.codeActionsOnSave": {
@@ -46,9 +41,7 @@
     {
       "languageId": "*",
       "local": "en-US",
-      "dictionaries": [
-        "wordsEn"
-      ]
+      "dictionaries": ["wordsEn"]
     }
   ],
   "workbench.activityBar.visible": false,
@@ -77,10 +70,10 @@
       "id": "lineNumbers",
       "values": [
         {
-          "editor.lineNumbers": "off",
+          "editor.lineNumbers": "off"
         },
         {
-          "editor.lineNumbers": "on",
+          "editor.lineNumbers": "on"
         }
       ]
     }
@@ -88,5 +81,7 @@
   "editor.glyphMargin": false,
   "editor.renderWhitespace": "none",
   "editor.renderControlCharacters": false,
-  "editor.emptySelectionClipboard": false
+  "editor.emptySelectionClipboard": false,
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "emmet.showExpandedAbbreviation": "never"
 }
