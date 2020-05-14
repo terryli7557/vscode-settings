@@ -57,7 +57,7 @@
   "workbench.colorTheme": "Oceanic Next",
   "workbench.editor.showTabs": false,
   "git.enabled": false,
-  "editor.lineNumbers": "on",
+  "editor.lineNumbers": "off",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -79,7 +79,6 @@
   "editor.renderWhitespace": "none",
   "editor.renderControlCharacters": false,
   "editor.emptySelectionClipboard": false,
-  "zenMode.hideStatusBar": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "prettier.semi": false,
