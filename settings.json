@@ -24,10 +24,7 @@
     "**/.build": true,
     "**/.gh-pages": true
   },
-  "[javascript]": {
-    "editor.suggestSelection": "recentlyUsed",
-    "editor.formatOnSave": false
-  },
+
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -48,20 +45,20 @@
   "local-history.absolute": true,
   "local-history.path": "/Users/terryli/.vscode-history",
   "workbench.statusBar.visible": false,
+  "editor.renderLineHighlight": "all",
   "workbench.colorCustomizations": {
     "scrollbarSlider.background": "#080200",
-    "editor.scrollbar.verticalScrollbarSize": 0,
+    "scrollbarSlider.hoverBackground": "#222",
     "editor.background": "#080200",
-    "editor.lineHighlightBackground": "#181818",
-    "editorGroup.border": "#080200",
-    "scrollbarSlider.hoverBackground": "#080200"
+    "editor.lineHighlightBackground": "#080200",
+    "editorGroup.border": "#080200"
   },
   "editor.overviewRulerBorder": false,
   "workbench.colorTheme": "Oceanic Next",
   "workbench.editor.showTabs": false,
   "git.enabled": false,
-  "editor.lineNumbers": "off",
-  "[typescript]": {
+  "editor.lineNumbers": "on",
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "breadcrumbs.enabled": false,
@@ -82,6 +79,26 @@
   "editor.renderWhitespace": "none",
   "editor.renderControlCharacters": false,
   "editor.emptySelectionClipboard": false,
+  "zenMode.hideStatusBar": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "cSpell.userWords": ["noopener", "noreferrer", "statechange"],
   "screencastMode.onlyKeyboardShortcuts": true,
-  "emmet.showExpandedAbbreviation": "never"
+  "emmet.showExpandedAbbreviation": "never",
+  "editor.snippetSuggestions": "bottom",
+  "files.associations": {
+    "*.code-snippets": "json"
+  },
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.tabCompletion": "onlySnippets",
+  "editor.quickSuggestionsDelay": 500
 }
+
+// "editor.quickSuggestions": {
+//   "other": false,
+//   "comments": false,
+//   "strings": false
+// },
