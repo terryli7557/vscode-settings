@@ -92,9 +92,9 @@
   "editor.tabCompletion": "onlySnippets",
   "editor.quickSuggestionsDelay": 200,
   "editor.columnSelection": false,
-  "editor.cursorSmoothCaretAnimation": true,
   "workbench.colorTheme": "Oceanic Next (dimmed bg)",
-  "editor.folding": false
+  "editor.folding": false,
+  "terminal.integrated.shellArgs.osx": []
 }
 
 // "editor.quickSuggestions": {
