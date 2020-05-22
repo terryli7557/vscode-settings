@@ -11,7 +11,6 @@
   "editor.wordBasedSuggestions": false,
   "terminal.integrated.fontSize": 13,
   "editor.tabSize": 2,
-  "editor.folding": false,
   "files.exclude": {
     "USE_GITIGNORE": true
   },
@@ -54,7 +53,6 @@
     "editorGroup.border": "#080200"
   },
   "editor.overviewRulerBorder": false,
-  "workbench.colorTheme": "Oceanic Next",
   "workbench.editor.showTabs": false,
   "git.enabled": false,
   "editor.lineNumbers": "off",
@@ -91,9 +89,12 @@
     "*.code-snippets": "json"
   },
   "editor.suggestSelection": "recentlyUsedByPrefix",
-  "editor.acceptSuggestionOnEnter": "off",
   "editor.tabCompletion": "onlySnippets",
-  "editor.quickSuggestionsDelay": 500
+  "editor.quickSuggestionsDelay": 200,
+  "editor.columnSelection": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+  "editor.folding": false
 }
 
 // "editor.quickSuggestions": {

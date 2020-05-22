@@ -1,4 +1,4 @@
-// Place your key bindings in this file to overwrite the defaults
+//Place your key bindings in this file to overwrite the defaults
 [
   {
     "comment": "This is just really handy. I use it all the time in Atom.",
@@ -6,32 +6,11 @@
     "command": "workbench.files.action.focusFilesExplorer"
   },
   {
-    "comment": "Because I want enter to open the file, I need some way to rename it, this seemed as good as any other method. 'm' for 'move'",
-    "key": "m",
-    "command": "renameFile",
-    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
-  },
-  {
-    "comment": "This allows me to open the file on enter instead which makes more sense to me.",
-    "key": "enter",
-    "command": "-renameFile",
-    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
-  },
-  {
     "comment": "This makes my zoom behavior more like chrome",
     "key": "cmd+0",
     "command": "workbench.action.zoomReset"
   },
-  {
-    "key": "shift+cmd+space",
-    "command": "editor.action.triggerParameterHints",
-    "when": "editorHasSignatureHelpProvider && editorTextFocus"
-  },
-  {
-    "key": "shift+cmd+space",
-    "command": "-editor.action.triggerParameterHints",
-    "when": "editorHasSignatureHelpProvider && editorTextFocus"
-  },
+
   {
     "key": "cmd+a",
     "command": "explorer.newFile",
@@ -42,20 +21,17 @@
     "command": "explorer.newFolder",
     "when": "filesExplorerFocus && !inputFocus"
   },
-  {
-    "key": "ctrl+w",
-    "command": "editor.action.smartSelect.grow",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+shift+w",
-    "command": "editor.action.smartSelect.shrink",
-    "when": "editorTextFocus && editorHasSelection"
-  },
+
   {
     "key": "cmd+k cmd+q",
     "command": "-workbench.action.navigateToLastEditLocation"
   },
+
+  {
+    "key": "shift+cmd+backspace",
+    "command": "workbench.action.navigateToLastEditLocation"
+  },
+
   {
     "key": "cmd+d",
     "command": "editor.action.copyLinesDownAction",
@@ -66,22 +42,7 @@
     "command": "-editor.action.copyLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
   },
-  {
-    "key": "shift+cmd+backspace",
-    "command": "workbench.action.navigateToLastEditLocation"
-  },
-  {
-    "key": "shift+cmd+m",
-    "command": "-workbench.actions.view.problems"
-  },
-  {
-    "key": "shift+cmd+m",
-    "command": "workbench.action.terminal.toggleTerminal"
-  },
-  {
-    "key": "ctrl+`",
-    "command": "-workbench.action.terminal.toggleTerminal"
-  },
+
   {
     "key": "cmd+backspace",
     "command": "-deleteAllLeft",
@@ -221,8 +182,25 @@
     "command": "settings.cycle.lineNumbers",
     "when": "editorFocus"
   },
+
+  {
+    "key": "cmd+shift+k",
+    "command": "editor.action.selectToBracket",
+    "args": { "selectBrackets": false }
+  },
+
   {
     "key": "cmd+h",
     "command": "editor.emmet.action.matchTag"
+  },
+  {
+    "key": "cmd+k",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
   }
 ]

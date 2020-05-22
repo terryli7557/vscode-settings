@@ -21,86 +21,59 @@
   },
   "Use effect": {
     "prefix": "ue",
-    "body": [
-      "useEffect(() => {",
-      "  $1",
-      "}, [])",
-      "$0"
-    ]
+    "body": ["useEffect(() => {", "  $1", "}, [])", "$0"]
   },
   "Use callback": {
     "prefix": "uc",
-    "body": [
-      "useCallback(() => {",
-      "  $1",
-      "}, [])",
-      "$0"
-    ]
+    "body": ["useCallback(() => {", "\t$1", "}, [])", "$0"]
+  },
+  "Use memo": {
+    "prefix": "um",
+    "body": ["useMemo(() => {", "\t$1", "}, [])", "$0"]
   },
   "Print to console": {
-    "prefix": "cl",
-    "body": [
-      "console.log($1)",
-      "$0"
-    ],
+    "prefix": ["cl", "clg", "log"],
+    "body": ["console.log($1)", "$0"],
     "description": "Log output to console"
   },
   "Try catch": {
     "prefix": "try",
-    "body": [
-      "try {",
-      "  $1",
-      "} catch (e) {",
-      "  $2",
-      "}",
-      "$0"
-    ],
+    "body": ["try {", "  $1", "} catch (e) {", "  $2", "}", "$0"],
     "description": "Try catch block"
   },
   "Create a function": {
     "prefix": "fun",
-    "body": [
-      "function ${1:functionName}($2) {",
-      "  $0",
-      "}"
-    ],
+    "body": ["function ${1:functionName}($2) {", "  $0", "}"],
     "description": "Create a function"
   },
   "Create test": {
     "prefix": "test",
-    "body": [
-      "test('$1', () => {",
-      "\t\t",
-      "})"
-    ],
+    "body": ["test('$1', () => {", "\t\t", "})"],
     "description": "Create test"
   },
   "Create arrow function": {
     "prefix": "af",
-    "body": [
-      "() => {$1}",
-      "$0"
-    ],
+    "body": ["() => {$1}", "$0"],
     "description": "Create arrow function"
   },
   "Set timeout": {
     "prefix": "sto",
-    "body": [
-      "setTimeout(() => {",
-      "\t$1",
-      "}, 1000)",
-      "$0"
-    ],
+    "body": ["setTimeout(() => {", "\t$1", "}, 1000)", "$0"],
     "description": "Set timeout"
   },
   "Set interval": {
     "prefix": "si",
-    "body": [
-      "setInterval(() => {",
-      "\t$1",
-      "}, 1000)",
-      "$0"
-    ],
+    "body": ["setInterval(() => {", "\t$1", "}, 1000)", "$0"],
     "description": "Set interval"
+  },
+  "Eslint disabled next line": {
+    "prefix": "eslnl",
+    "body": ["// eslint-disable-next-line"],
+    "description": "Eslint disable next line"
+  },
+  "Add style object": {
+    "prefix": "st",
+    "body": ["style={{ $1 }}$0 "],
+    "description": "Add style object"
   }
 }
