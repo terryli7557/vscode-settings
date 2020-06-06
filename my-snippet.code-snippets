@@ -31,10 +31,10 @@
     "prefix": "um",
     "body": ["useMemo(() => {", "\t$1", "}, [])", "$0"]
   },
-  "Print to console": {
-    "prefix": ["cl", "clg", "log"],
-    "body": ["console.log($1)", "$0"],
-    "description": "Log output to console"
+  "Console log": {
+    "prefix": ["l"],
+    "body": ["console.log($1)$0"],
+    "description": "My awesome console log"
   },
   "Try catch": {
     "prefix": "try",
@@ -43,7 +43,7 @@
   },
   "Create a function": {
     "prefix": "fun",
-    "body": ["function ${1:functionName}($2) {", "  $0", "}"],
+    "body": ["function ${1:functionName}(${2:params}) {", "  $0", "}"],
     "description": "Create a function"
   },
   "Create test": {
@@ -56,13 +56,18 @@
     "body": ["() => {$1}", "$0"],
     "description": "Create arrow function"
   },
+  "Create async function": {
+    "prefix": "afun",
+    "body": ["async function ${1:functionName}(${2:params}) {", "  $0", "}"],
+    "description": "Create async function"
+  },
   "Set timeout": {
     "prefix": "sto",
     "body": ["setTimeout(() => {", "\t$1", "}, 1000)", "$0"],
     "description": "Set timeout"
   },
   "Set interval": {
-    "prefix": "si",
+    "prefix": "sit",
     "body": ["setInterval(() => {", "\t$1", "}, 1000)", "$0"],
     "description": "Set interval"
   },
@@ -73,7 +78,31 @@
   },
   "Add style object": {
     "prefix": "st",
-    "body": ["style={{ $1 }}$0 "],
+    "body": ["style={{ $0 }}"],
     "description": "Add style object"
+  },
+  "Margin top": {
+    "prefix": "mt",
+    "body": ["marginTop: $1"],
+    "description": "Margin top"
+  },
+  "Margin bottom": {
+    "prefix": "mb",
+    "body": ["marginBottom: $1"],
+    "description": "Margin bottom"
+  },
+  "Margin left": {
+    "prefix": "ml",
+    "body": ["marginLeft: $1"],
+    "description": "Margin left"
+  },
+  "Margin right": {
+    "prefix": "mr",
+    "body": ["marginRight: $1"],
+    "description": "Margin right"
+  },
+  "Import": {
+    "prefix": "imp",
+    "body": ["import { $2 } from '$1'", "$0"]
   }
 }
