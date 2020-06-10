@@ -1,11 +1,6 @@
 //Place your key bindings in this file to overwrite the defaults
 [
   {
-    "comment": "This is just really handy. I use it all the time in Atom.",
-    "key": "shift+cmd+\\",
-    "command": "workbench.files.action.focusFilesExplorer"
-  },
-  {
     "comment": "This makes my zoom behavior more like chrome",
     "key": "cmd+0",
     "command": "workbench.action.zoomReset"
@@ -239,5 +234,17 @@
   {
     "key": "shift+cmd+m",
     "command": "-workbench.actions.view.problems"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "shift+cmd+\\",
+    "command": "workbench.files.action.focusFilesExplorer"
   }
 ]
