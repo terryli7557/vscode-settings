@@ -104,5 +104,44 @@
   "Import": {
     "prefix": "imp",
     "body": ["import { $2 } from '$1'", "$0"]
+  },
+  "Map state": {
+    "prefix": "ms",
+    "body": [
+      "const mapState = ({ sites }: RootState) => ({",
+      "\tsiteId: sites.siteId,",
+      "})",
+      "export const ${1:name} = connect(mapState)(_${1:name})",
+      "$0"
+    ],
+    "description": "Map state"
+  },
+  "shiftInstance": {
+    "prefix": "si",
+    "body": ["shiftInstance $0"],
+    "description": "shiftInstance"
+  },
+  "ShiftInstance": {
+    "prefix": "Si",
+    "body": ["ShiftInstance $0"],
+    "description": "ShiftInstance"
+  },
+  "calculatedShiftInstance": {
+    "prefix": "csi",
+    "body": ["calculatedShiftInstance $0"],
+    "description": "calculatedShiftInstance"
+  },
+  "CalculatedShiftInstance": {
+    "prefix": "Csi",
+    "body": ["CalculatedShiftInstance $0"],
+    "description": "CaculatedShiftInstance"
+  },
+  "Use modal": {
+    "prefix": "umd",
+    "body": [
+      "const { closeModal, modalVisible, showModal } = useModal()",
+      "$0"
+    ],
+    "description": "use modal hook"
   }
 }
