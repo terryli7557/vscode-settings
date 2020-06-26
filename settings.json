@@ -1,6 +1,5 @@
 {
   "window.zoomLevel": 2,
-  "typescript.tsserver.log": "verbose",
 
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -57,10 +56,8 @@
   "workbench.editor.showTabs": false,
   "git.enabled": false,
   "editor.lineNumbers": "off",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "breadcrumbs.enabled": false,
+
+  "breadcrumbs.enabled": true,
   "settings.cycle": [
     {
       "id": "lineNumbers",
@@ -81,15 +78,13 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "cSpell.userWords": [
-    "actioned",
-    "actioned at",
-    "at",
-    "noopener",
-    "noreferrer",
-    "statechange",
     "abbrv",
     "abcdefjhijklmnopqrstuvwxyz",
+    "actioned",
+    "actioned at",
+    "antd",
     "anticon",
+    "at",
     "authed",
     "clonedeep",
     "csis",
@@ -104,6 +99,8 @@
     "isequal",
     "lastname",
     "libphonenumber",
+    "noopener",
+    "noreferrer",
     "overscan",
     "popconfirm",
     "reaptcha",
@@ -111,6 +108,7 @@
     "shortname",
     "signup",
     "sitekey",
+    "statechange",
     "stroopwafel",
     "submenu",
     "svgs",
@@ -165,14 +163,11 @@
   "editor.suggest.showInterfaces": true,
   "editor.suggest.showModules": true,
   "editor.suggest.showConstants": true,
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": false,
-    "strings": false
-  },
+
   "workbench.colorTheme": "Oceanic Next",
   "editor.folding": false,
   "editor.quickSuggestionsDelay": 0,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "typescript.suggest.autoImports": false
 }
