@@ -246,5 +246,13 @@
   {
     "key": "shift+cmd+\\",
     "command": "workbench.files.action.focusFilesExplorer"
+  },
+  {
+    "key": "cmd+i",
+    "command": "editor.action.sourceAction",
+    "args": {
+      "kind": "source.addMissingImports",
+      "apply": "first"
+    }
   }
 ]
