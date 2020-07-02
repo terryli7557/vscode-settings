@@ -220,12 +220,8 @@
     "when": "editorFocus && parameterHintsVisible"
   },
   {
-    "key": "cmd+m",
-    "command": "workbench.action.positionPanelRight"
-  },
-  {
     "key": "shift+cmd+m",
-    "command": "workbench.action.positionPanelBottom"
+    "command": "workbench.action.positionPanelRight"
   },
   {
     "key": "cmd+j",
@@ -254,5 +250,9 @@
       "kind": "source.addMissingImports",
       "apply": "first"
     }
+  },
+  {
+    "key": "cmd+m",
+    "command": "editor.emmet.action.updateTag"
   }
 ]

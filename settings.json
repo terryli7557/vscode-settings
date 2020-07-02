@@ -169,5 +169,5 @@
   "editor.quickSuggestionsDelay": 0,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.formatOnSave": true,
-  "typescript.suggest.autoImports": false
+  "typescript.suggest.autoImports": true
 }
